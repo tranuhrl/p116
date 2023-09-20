@@ -1,0 +1,17 @@
+button
+{
+    background-color: aquamarine;
+}
+button:hover
+{
+    background-color:aqua
+}
+canvas{
+    animation-name: po;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+@keyframes po {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px green;}
+}
